@@ -1,4 +1,4 @@
-# Honey_Hut
+# Honey Hut
 
 Created: January 2021
 Tools: HTML, CSS
