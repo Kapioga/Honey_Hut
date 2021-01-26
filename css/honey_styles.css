@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(44, 25, 9);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    text-align: center;
+    padding: 10px 100px 10px 10px;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 30px;
+    clear: both;
+}
+
+img{
+    width: 1900px;
+    height: 1200px;
+    padding: -10px;
+    float: left;
+    margin: auto;
+}
+
+strong{
+    font-size: 100px;
+    text-align: right;
+}
+
+h1{
+    /* font-family: 'Lobster', cursive; */
+    font-size: 72px;
+    border-width: 2em;
+    color: white;
+    padding: 5px;
+    font-weight: 400px;
+}
+
+h2{
+    color: rgb(36, 28, 11);
+    font-size: 30px;
+}
+
+h3{
+    color: rgb(36, 28, 11);
+    font-size: 20px;
+    padding: 10px;
+}
+
+p{
+    color: rgb(36, 28, 11);
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    right: 16px;
+    bottom: 200px;
+    /* bottom: 20px; */
+    float: left;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+sup{
+    color: white;
+}
+
+/* Classes */
+
+.container{
+    max-width: 1920px;
+    margin: 0;
+    float: left;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* .footer{
+    text-align: center;
+    background: rgb(255, 238, 0);
+    color: rgb(36, 28, 11);
+    height: 200px;
+    width: 100%;
+    Padding: 30px 2%;
+    position: relative;
+    clear: both;
+} */
+
+.button{
+    font-size: 20px;
+    float: left;
+    font-weight: 400px;
+    background-color: White;
+    padding: 5px  1em;
+    border-radius: 20px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 16px;
+    display: inline-block;
+}
+
+.button:hover,
+.button:focus {
+    color: rgb(139, 84, 15);
+    font-weight: 700;
+}
+
+.text-block{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 2%;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    text-align: center;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border-radius: 20px;
+}
